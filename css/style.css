@@ -96,6 +96,26 @@ nav a:focus {
 .contact-image {
      grid-row-start: 6;
 }
+.accounts-image img{
+     height: 100%;
+     width: 100%;
+}
+.onlinebanking-image img{
+     height: 100%;
+     width: 100%;
+}
+.security-image img{
+     height: 100%;
+     width: 100%;
+}
+.loans-image img{
+     height: 100%;
+     width: 100%;
+}
+.contact-image img{
+     height: 100%;
+     width: 100%;
+}
 
 /* Step 8: Write the selector/rule property to style the .text-block class. */
 .text-block {
@@ -145,7 +165,7 @@ nav a:focus {
 
      .onlinebanking-image,
      .loans-image {
-          grid-column: 1/span 5;
+          grid-column: 3/span 5;
      }
 
      /* Step 16:Write the selector/rule property to update the .text-block class */
